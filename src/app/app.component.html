@@ -154,6 +154,11 @@
                     >
                     </app-skill-bar>
                     <app-skill-bar
+                      [techName]="skills.nine.techName"
+                      [widthBar]="skills.nine.widthBar"
+                    >
+                    </app-skill-bar>
+                    <app-skill-bar
                       [techName]="skills.third.techName"
                       [widthBar]="skills.third.widthBar"
                     >
@@ -197,9 +202,7 @@
               <div class="resume-skill-item">
                 <h4 class="resume-skills-cat font-weight-bold">Others tools</h4>
                 <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <span class="badge bg-secondary badge-pill">DevOps</span>
-                  </li>
+                 
                   <li class="list-inline-item">
                     <span class="badge bg-secondary badge-pill">Docker</span>
                   </li>
@@ -209,19 +212,11 @@
                   <li class="list-inline-item">
                     <span class="badge bg-secondary badge-pill">SCRUM</span>
                   </li>
-                  <li class="list-inline-item">
-                    <span class="badge bg-secondary badge-pill"
-                      >Code Review</span
-                    >
-                  </li>
+                 
                   <li class="list-inline-item">
                     <span class="badge bg-secondary badge-pill">Git</span>
                   </li>
-                  <li class="list-inline-item">
-                    <span class="badge bg-secondary badge-pill"
-                      >Unit Testing</span
-                    >
-                  </li>
+                  
                 </ul>
               </div>
               <!--//resume-skill-item-->

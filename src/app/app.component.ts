@@ -42,7 +42,7 @@ export class AppComponent {
         'As part of a team, I developed a custom Flutter application aimed at automating agricultural processes. The app rendered all data generated to a web back office, allowing farmers to monitor crop information in real-time. Additionally, the app could connect to IoT devices to receive alerts and notify farmers of any issues. This experience allowed me to collaborate effectively with a team of developers, designers, and other stakeholders, while also developing skills in creating highly functional mobile applications, integrating APIs and IoT devices, and implementing customized automation solutions to improve efficiency and productivity',
       ],
       jobDuration: 'Feb 2022 - Jan 2023',
-      roleSkills: ['Dart', 'Flutter'],
+      roleSkills: ['Dart', 'Flutter', 'Firebase'],
     },
     third: {
       companyName: 'GudarDevs',
@@ -55,7 +55,7 @@ export class AppComponent {
       roleSkills: ['Dart', 'Flutter', 'Android', 'iOS'],
     },
   };
-  title = 'Ivan Rodriguez E';
+  title = 'Alfredo Paez N';
   skills = {
     first: {
       techName: 'Dart',
@@ -88,6 +88,10 @@ export class AppComponent {
     eight: {
       techName: 'Python/Django',
       widthBar: 50,
+    },
+    nine: {
+      techName: 'Firebase',
+      widthBar: 80,
     },
   };
   education = {
